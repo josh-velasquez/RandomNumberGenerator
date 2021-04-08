@@ -11,6 +11,10 @@ Random list generator that when given a list, randomizes the position of the ele
 The program can be used to randomize any type of object list. To randomize their elements' position, various algorithms can be used or implemented.
 
 ### Modified Fisher-Yates Shuffle
-[Fisher-Yates Shuffle](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle)
+[Fisher-Yates Shuffle](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle)  
 Runtime: O(n)  
 Algorithm: for each element in the list, generate a random number between 0 and the index of that element. Once you have the random value, swap the position of the current element with the element at the index of the random number.
+
+
+## Target Framework
+.NET Framework 4.7.2
